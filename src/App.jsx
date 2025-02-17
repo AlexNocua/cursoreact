@@ -7,6 +7,7 @@ import State from "./components/State.jsx"
 import EstilosTradicionales from "./components/EstilosTradicionales.jsx"
 import EstilosEnLinea from "./components/EstilosEnLinea.jsx"
 import EstilosEnModulo from "./components/EstilosEnModulo"
+import EstilosConStyled from "./components/EstilosConStyled.jsx"
 
 
 
@@ -30,7 +31,8 @@ function App() {
       */}
 
       {/* <EstilosEnLinea></EstilosEnLinea> */}
-      <EstilosEnModulo></EstilosEnModulo>
+      {/* <EstilosEnModulo></EstilosEnModulo> */}
+      <EstilosConStyled></EstilosConStyled>
     </>
 
   );
