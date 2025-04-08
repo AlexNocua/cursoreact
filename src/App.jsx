@@ -8,6 +8,10 @@ import EstilosTradicionales from "./components/EstilosTradicionales.jsx"
 import EstilosEnLinea from "./components/EstilosEnLinea.jsx"
 import EstilosEnModulo from "./components/EstilosEnModulo"
 import EstilosConStyled from "./components/EstilosConStyled.jsx"
+import Refs from "./components/Refs.jsx"
+import Hooks from "./components/Hooks.jsx"
+
+// import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
 
@@ -32,7 +36,14 @@ function App() {
 
       {/* <EstilosEnLinea></EstilosEnLinea> */}
       {/* <EstilosEnModulo></EstilosEnModulo> */}
-      <EstilosConStyled></EstilosConStyled>
+      {/* <EstilosConStyled></EstilosConStyled> */}
+
+
+      {/* <Refs></Refs> */}
+
+      {/* <CicloVidaComponentes></CicloVidaComponentes> */}
+
+      <Hooks></Hooks>
     </>
 
   );
