@@ -12,6 +12,7 @@ import Refs from "./components/Refs.jsx"
 import Hooks from "./components/Hooks.jsx"
 import Formularios from "./components/Formularios.jsx";
 import Eventos from "./components/Eventos.jsx";
+import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -49,7 +50,8 @@ function App() {
 
       </Formularios> */}
 
-      <Eventos></Eventos>
+      {/* <Eventos></Eventos> */}
+      <RenderizadoCondicional></RenderizadoCondicional>
     </>
   );
 }
