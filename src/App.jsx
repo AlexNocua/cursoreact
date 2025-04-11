@@ -11,6 +11,7 @@ import EstilosConStyled from "./components/EstilosConStyled.jsx"
 import Refs from "./components/Refs.jsx"
 import Hooks from "./components/Hooks.jsx"
 import Formularios from "./components/Formularios.jsx";
+import Eventos from "./components/Eventos.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -44,12 +45,12 @@ function App() {
       {/* <CicloVidaComponentes></CicloVidaComponentes> */}
 
       {/* <Hooks></Hooks> */}
-      <Formularios>
+      {/* <Formularios>
 
-      </Formularios>
-      <h1>buenas</h1>
+      </Formularios> */}
+
+      <Eventos></Eventos>
     </>
-
   );
 }
 
