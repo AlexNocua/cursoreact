@@ -13,6 +13,7 @@ import Hooks from "./components/Hooks.jsx"
 import Formularios from "./components/Formularios.jsx";
 import Eventos from "./components/Eventos.jsx";
 import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
+import SpreadOperator from "./components/SpreadOperator.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -51,7 +52,8 @@ function App() {
       </Formularios> */}
 
       {/* <Eventos></Eventos> */}
-      <RenderizadoCondicional></RenderizadoCondicional>
+      {/* <RenderizadoCondicional></RenderizadoCondicional> */}
+      <SpreadOperator></SpreadOperator>
     </>
   );
 }
