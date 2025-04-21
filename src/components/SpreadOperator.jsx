@@ -27,6 +27,24 @@ function SpreadOperator() {
     return (
         <div>
             <h1>SpreadOperator</h1>
+            <p>
+                Este es un operador para mesclar listas
+                <br />
+                <code>const vehiculos = ...motos, ...carros
+                </code></p>
+
+            <p>
+                Lista de motos: <br />
+                <small>
+                    {JSON.stringify(motos)}
+                </small>
+                <br />
+                lista de carros: <br />
+                <small>{JSON.stringify(carros)}</small>
+            </p>
+
+            <h3>Resultado de SpreadOperator en cada una de la listas</h3>
+            <small>{JSON.stringify(vehiculos)}</small>
         </div>
     )
 }
