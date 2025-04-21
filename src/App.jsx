@@ -14,6 +14,7 @@ import Formularios from "./components/Formularios.jsx";
 import Eventos from "./components/Eventos.jsx";
 import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
 import SpreadOperator from "./components/SpreadOperator.jsx";
+import IterarArrays from "./components/IterarArrays.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -53,7 +54,8 @@ function App() {
 
       {/* <Eventos></Eventos> */}
       {/* <RenderizadoCondicional></RenderizadoCondicional> */}
-      <SpreadOperator></SpreadOperator>
+      {/* <SpreadOperator></SpreadOperator> */}
+      <IterarArrays></IterarArrays>
     </>
   );
 }
