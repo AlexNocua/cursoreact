@@ -15,6 +15,7 @@ import Eventos from "./components/Eventos.jsx";
 import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
 import SpreadOperator from "./components/SpreadOperator.jsx";
 import IterarArrays from "./components/IterarArrays.jsx";
+import IterarKeys from "./components/IterarKeys.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -55,7 +56,8 @@ function App() {
       {/* <Eventos></Eventos> */}
       {/* <RenderizadoCondicional></RenderizadoCondicional> */}
       {/* <SpreadOperator></SpreadOperator> */}
-      <IterarArrays></IterarArrays>
+      {/* <IterarArrays></IterarArrays> */}
+      <IterarKeys></IterarKeys>
     </>
   );
 }
