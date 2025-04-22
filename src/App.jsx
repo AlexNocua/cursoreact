@@ -20,6 +20,7 @@ import Padre from "./components/iterandoComponentes/Padre.jsx";
 import ComunicacionCoponentes1 from "./components/ComunicacionCoponentes1.jsx";
 import ComunicacionCoponentes2 from "./components/ComunicacionCoponentes2.jsx";
 import Fetch from "./components/Fetch.jsx";
+import Axios from "./components/Axios.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -131,7 +132,11 @@ function App() {
         <p>Mensaje recibido del hijo 2:{mensajeHijo2Padre}</p>
       </center> */}
 
-      <Fetch></Fetch>
+      {/* <Fetch></Fetch> */}
+
+
+      {/* instalamos axios con npm install axios */}
+      <Axios></Axios>
     </>
   );
 }
