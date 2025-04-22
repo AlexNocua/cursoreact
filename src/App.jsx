@@ -19,6 +19,7 @@ import IterarKeys from "./components/IterarKeys.jsx";
 import Padre from "./components/iterandoComponentes/Padre.jsx";
 import ComunicacionCoponentes1 from "./components/ComunicacionCoponentes1.jsx";
 import ComunicacionCoponentes2 from "./components/ComunicacionCoponentes2.jsx";
+import Fetch from "./components/Fetch.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -113,10 +114,13 @@ function App() {
       {/* <IterarArrays></IterarArrays> */}
       {/* <IterarKeys></IterarKeys> */}
       {/* <Padre></Padre> */}
+
+
+      {/* comunicacion de componentes
       <center>
         <h1>Estos componentes estan dentro del componente padre. 😁</h1>
         <div style={styles}>
-          <ComunicacionCoponentes1 mensajeDelPadre={mensajeParaHijo1} enviarMensajesPadre={recibirMensajeHijo1} enviarMensajeHermano={recibirMensajeH1ParaH2} recibirMensajeHijo2 = {mensajeH2H1}></ComunicacionCoponentes1>
+          <ComunicacionCoponentes1 mensajeDelPadre={mensajeParaHijo1} enviarMensajesPadre={recibirMensajeHijo1} enviarMensajeHermano={recibirMensajeH1ParaH2} recibirMensajeHijo2={mensajeH2H1}></ComunicacionCoponentes1>
           <ComunicacionCoponentes2 enviarMensajesPadre={recibirMensajeHijo2} enviarMensajeHermano={recibirMensajeH2ParaH1} recibirMensajeHijo1={mensajeH1H2}></ComunicacionCoponentes2>
         </div>
         <button onClick={enviarMensajeHijo1}>Enviar mensaje del padre al hijo 1</button>
@@ -125,7 +129,9 @@ function App() {
         <h3>Mensajes de mis hijos</h3>
         <p>Mensaje recibido del hijo 1:{mensajeHijo1Padre}</p>
         <p>Mensaje recibido del hijo 2:{mensajeHijo2Padre}</p>
-      </center>
+      </center> */}
+
+      <Fetch></Fetch>
     </>
   );
 }
