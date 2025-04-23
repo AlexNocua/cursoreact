@@ -22,6 +22,7 @@ import ComunicacionCoponentes2 from "./components/ComunicacionCoponentes2.jsx";
 import Fetch from "./components/Fetch.jsx";
 import Axios from "./components/Axios.jsx";
 import Padre from "./components/Rutas/Padre.jsx";
+import UseCount from "./components/Hooks/UseCount.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -138,7 +139,8 @@ function App() {
 
       {/* instalamos axios con npm install axios */}
       {/* <Axios></Axios> */}
-      <Padre></Padre>
+      {/* <Padre></Padre> */}
+      <UseCount></UseCount>
     </>
   );
 }
