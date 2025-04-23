@@ -16,11 +16,12 @@ import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
 import SpreadOperator from "./components/SpreadOperator.jsx";
 import IterarArrays from "./components/IterarArrays.jsx";
 import IterarKeys from "./components/IterarKeys.jsx";
-import Padre from "./components/iterandoComponentes/Padre.jsx";
+// import Padre from "./components/iterandoComponentes/Padre.jsx";
 import ComunicacionCoponentes1 from "./components/ComunicacionCoponentes1.jsx";
 import ComunicacionCoponentes2 from "./components/ComunicacionCoponentes2.jsx";
 import Fetch from "./components/Fetch.jsx";
 import Axios from "./components/Axios.jsx";
+import Padre from "./components/Rutas/Padre.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
 
 
@@ -136,7 +137,8 @@ function App() {
 
 
       {/* instalamos axios con npm install axios */}
-      <Axios></Axios>
+      {/* <Axios></Axios> */}
+      <Padre></Padre>
     </>
   );
 }
