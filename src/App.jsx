@@ -24,6 +24,8 @@ import Axios from "./components/Axios.jsx";
 import Padre from "./components/Rutas/Padre.jsx";
 import UseCount from "./components/Hooks/UseCount.jsx";
 // import CicloVidaComponentes from "./components/CicloVidaComponentes.jsx"
+import UserProvider from "./components/Context/Context.jsx";
+import ListaUsuarios from "./components/Context/ListaUsuarios.jsx";
 
 
 
@@ -140,7 +142,11 @@ function App() {
       {/* instalamos axios con npm install axios */}
       {/* <Axios></Axios> */}
       {/* <Padre></Padre> */}
-      <UseCount></UseCount>
+      {/* <UseCount></UseCount> */}
+      <UserProvider>
+        <ListaUsuarios></ListaUsuarios>
+
+      </UserProvider>
     </>
   );
 }
