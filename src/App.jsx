@@ -28,6 +28,10 @@ import UserProvider from "./components/Context/Context.jsx";
 import ListaUsuarios from "./components/Context/ListaUsuarios.jsx";
 
 
+import { Provider } from "react-redux"
+import store from "./Redux/store.js"
+import contador from "./Redux/Reducers/CounterReducer.jsx";
+import Contador from "./components/Contador.jsx"
 
 function App() {
   const lista = ['pelota', 'carro', 'avion']
@@ -143,10 +147,15 @@ function App() {
       {/* <Axios></Axios> */}
       {/* <Padre></Padre> */}
       {/* <UseCount></UseCount> */}
-      <UserProvider>
+      {/* <UserProvider>
         <ListaUsuarios></ListaUsuarios>
 
-      </UserProvider>
+      </UserProvider> */}
+      <Provider store={store}>
+
+        <Contador></Contador>
+      </Provider>
+
     </>
   );
 }
